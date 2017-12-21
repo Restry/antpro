@@ -120,7 +120,7 @@ $ npm start
 
 
 
-[官方在线预览](https://preview.pro.ant.design/){:target="_blank"}
+[官方在线预览](https://preview.pro.ant.design/)
 
 
 ---
