@@ -42,6 +42,11 @@ export const getNavData = app => [
         path: 'newpage',
         icon: 'form',
         component: dynamicWrapper(app, ['newpage'], () => import('../routes/NewPage')),
+      }, {
+        name: '新页面2',
+        path: 'newpage2',
+        icon: 'form',
+        component: dynamicWrapper(app, [], () => import('../routes/NewPage2')),
       },
       {
         name: '表单页',
